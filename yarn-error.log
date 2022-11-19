@@ -1,0 +1,51 @@
+Arguments: 
+  /snap/node/6905/bin/node /home/sr/.yarn/bin/yarn.js add gatsby-plugin-image gatsby-plugin-sharp gatsby-source-filesystem
+
+PATH: 
+  /home/sr/.yarn/bin:/home/sr/.config/yarn/global/node_modules/.bin:/home/sr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sr/.dotnet/tools:/usr/lib/jvm/java-17-oracle/bin:/usr/lib/jvm/java-17-oracle/db/bin:/home/sr/depot_tools:/home/sr/upp
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.12.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+
+npm manifest: 
+  {
+    "name": "my-gatsby-site",
+    "version": "1.0.0",
+    "private": true,
+    "description": "my-gatsby-site",
+    "author": "aondenet-sinval",
+    "keywords": [
+      "gatsby"
+    ],
+    "scripts": {
+      "develop": "gatsby develop",
+      "start": "gatsby develop",
+      "build": "gatsby build",
+      "serve": "gatsby serve",
+      "clean": "gatsby clean"
+    },
+    "dependencies": {
+      "babel-plugin-styled-components": "^2.0.7",
+      "gatsby": "^5.0.0",
+      "gatsby-plugin-styled-components": "^6.0.0",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "styled-components": "^5.3.6"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
