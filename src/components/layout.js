@@ -38,6 +38,11 @@ const Layout = ({ pageTitle, children }) => {
               Produtos
             </Link>
           </li>
+          <li className={navLinkItem}>
+            <Link to="/cadastros" className={navLinkText}>
+              Cadastros
+            </Link>
+          </li>
         </ul>
       </nav>
       <main>
@@ -49,8 +54,3 @@ const Layout = ({ pageTitle, children }) => {
 }
 
 export default Layout
-          // <li className={navLinkItem}>
-          //   <Link to="/header" className={navLinkText}>
-          //     Posts
-          //   </Link>
-          // </li>
